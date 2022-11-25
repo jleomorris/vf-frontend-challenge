@@ -1,0 +1,73 @@
+{
+  "name": "visfo-front-end-project-template",
+  "version": "1.0.0",
+  "description": "base template for all visfo projects",
+  "main": "index.tsx",
+  "private": true,
+  "engines": {
+    "node": "16.16.0"
+  },
+  "scripts": {
+    "lint": "eslint . --ext .ts,.tsx --ignore-path .gitignore",
+    "test": "jest",
+    "dev": "webpack serve --open --config ./webpack/webpack.dev.js",
+    "prod": "NODE_ENV=production webpack --config ./webpack/webpack.prod.js",
+    "prepare": "husky install",
+    "check-branch-name": "bash ./hooks/branch_name_check.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/visformatics/visfo-front-end-project-template.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/visformatics/visfo-front-end-project-template/issues"
+  },
+  "homepage": "https://github.com/visformatics/visfo-front-end-project-template#readme",
+  "dependencies": {
+    "@babel/plugin-syntax-jsx": "^7.17.12",
+    "brix": "git+ssh://git@github.com:visformatics/brix.git",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-router-dom": "^6.3.0",
+    "ts-loader": "^9.3.0",
+    "typescript": "^4.6.4",
+    "webpack-merge": "^5.8.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.17.12",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.2.0",
+    "@types/jest": "^27.5.1",
+    "@types/mocha": "^9.1.1",
+    "@typescript-eslint/eslint-plugin": "^5.25.0",
+    "@typescript-eslint/parser": "^5.25.0",
+    "dotenv-webpack": "^7.1.0",
+    "eslint": "^8.15.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.29.4",
+    "eslint-plugin-react-hooks": "^4.5.0",
+    "html-loader": "^3.1.0",
+    "html-webpack-plugin": "^5.5.0",
+    "husky": "^8.0.1",
+    "jest": "^28.1.0",
+    "jest-environment-jsdom": "^28.1.0",
+    "mini-css-extract-plugin": "^2.6.1",
+    "node-sass": "^7.0.1",
+    "prettier": "^2.6.2",
+    "pretty-quick": "^3.1.3",
+    "sass": "^1.54.1",
+    "sass-loader": "^13.0.2",
+    "ts-jest": "^28.0.2",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.0"
+  },
+  "resolutions": {
+    "babel-core": "7.0.0-bridge.0"
+  }
+}

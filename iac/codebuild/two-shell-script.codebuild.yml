@@ -1,0 +1,7 @@
+---
+version: 0.2
+phases:
+  build:
+    commands:
+      - bash "$SCRIPT_PATH_1"
+      - bash "$SCRIPT_PATH_2"

@@ -1,0 +1,4 @@
+{
+  "base_image_tag": "latest",
+  "commit_to_deploy": "latest"
+}

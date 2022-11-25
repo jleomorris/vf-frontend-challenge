@@ -1,0 +1,16 @@
+FROM public.ecr.aws/ubuntu/ubuntu:20.04
+
+ARG NODE_VERSION
+
+ARG YARN_VERSION
+
+RUN mkdir ./res ./bash
+
+COPY ./iac/bash/ ./bash/
+
+COPY ./iac/res/ ./res/
+
+RUN NODE_VERSION=$NODE_VERSION YARN_VERSION=$YARN_VERSION bash ./bash/base-image-configuration.sh \
+	"res/nodesource.gpg.key" \
+	"res/aws.gpg.key" &&\
+	rm -rf ./bash ./res
