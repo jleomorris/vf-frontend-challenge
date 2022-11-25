@@ -41,7 +41,7 @@ module.exports = {
   },
   resolve: {
     modules: ['node_modules'],
-    extensions: ['.tsx', '.ts', '.js'],
+    extensions: ['.tsx', '.ts', '.d.ts', '.js'],
   },
   plugins: [
     new MiniCssExtractPlugin({
