@@ -1,26 +1,46 @@
+# Visfo frontend code challenge
+
 ## Getting Started:
 
 - Clone the repository
 - cd into the directory and run `yarn install`
 - To start the application in development mode, from the command line run `yarn run dev`
-- To build the application in production mode, run `yarn run prod`
 
-### Commands:
+### Useful Commands:
 
-- Start dev env: `yarn run dev`
-- Start prod env: ` yarn run prod`
-- Linting: `yarn run lint`
-- Unit tests: `yarn run test`
-- Prettier: `yarn run pretty-quick`
+- Start the dev environment: `yarn run dev`
+- Run the test suite: `yarn run test`
 
-### Linting Rules:
+### The problem:
 
-To set a strong base for any rules we want to enforce I have setup with to use the [Airbnb config](https://airbnb.io/javascript/) this config is widely used by a huge list of companies and for many is a standard.
+The client needs a way to be able to view and filter users on a page in their application. 
 
-### Hooks:
+* The page should display an avatar, name, and location for each user.
+* The user should be able to filter the list by typing a name into a text field.
+* The user should be ablet to reset any filters applied to the list.
 
-The following are set up as pre commit hooks:
+For this exercise you will use the Github users Rest API. Documentation can be found here: https://docs.github.com/en/rest/guides/getting-started-with-the-rest-api
 
-- Linting
-- Prettier
-- Running the unit tests
+### Your Task (should you choose to accept it):
+
+Build a users list page that meets the criteria set out above. How you build and style the page is up to you. 
+
+__Note:__ An API call to get a list of users is already available as an example in the application.
+
+#### Extra credit:
+
+If you feel that the first task is too easy, There are a couple of extra acceptance criteria for you to get your teeth into: 
+
+* The user list should paginate
+* The user should be able to click on a user to view more detailed information.
+
+#### What are we looking for?
+
+* Clean, readable code.
+* Unit/integration tests where necessary.
+* Good knowledge of CSS or any of its counterparts (SASS, Less, Compass)
+
+#### How do I submit my completed challenge?
+
+Once you are satisfied with your solution, push the branch to your personal github and the link to us via email.
+
