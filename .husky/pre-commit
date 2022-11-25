@@ -1,6 +1,0 @@
-#!/usr/bin/env sh
-. "$(dirname -- "$0")/_/husky.sh"
-yarn run check-branch-name
-yarn run test
-yarn run lint
-yarn run pretty-quick --staged
