@@ -9,7 +9,7 @@ const ApplicationLayout = ({ children }: ApplicationLayoutType) => {
 
   return (
     <div>
-      <h1>{applicationName} test</h1>
+      <h1>{applicationName}</h1>
       <div className="app-content">{children}</div>
     </div>
   );
