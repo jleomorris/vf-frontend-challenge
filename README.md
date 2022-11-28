@@ -43,5 +43,5 @@ If you feel that the first task is too easy, There are a couple of extra accepta
 
 #### How do I submit my completed challenge?
 
-Once you are satisfied with your solution, push the branch to your personal github and the link to us via email.
+Once you are satisfied with your solution, send your submissioon to us in a zip file, to the email address you will be given when you speak to our recruitment partners
 
