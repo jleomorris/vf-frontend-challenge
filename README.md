@@ -5,6 +5,7 @@
 - Clone the repository
 - cd into the directory and run `yarn install`
 - To start the application in development mode, from the command line run `yarn run dev`
+- To view the application in your browser go to: http://localhost:3000
 
 ### Useful Commands:
 
@@ -21,7 +22,7 @@ The client needs a way to be able to view and filter users on a page in their ap
 
 For this exercise you will use the Github users Rest API. Documentation can be found here: https://docs.github.com/en/rest/guides/getting-started-with-the-rest-api
 
-### Your Task (should you choose to accept it):
+### Your objective:
 
 Build a users list page that meets the criteria set out above. How you build and style the page is up to you. 
 
