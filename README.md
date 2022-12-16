@@ -16,7 +16,7 @@
 
 The client needs a way to be able to view and filter users on a page in their application. 
 
-* The page should display an avatar, name, and location for each user.
+* The page should display an avatar, username, and user type for each user.
 * The user should be able to filter the list by typing a name into a text field.
 * The user should be ablet to reset any filters applied to the list.
 
