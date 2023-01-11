@@ -3,7 +3,6 @@ import AppConfig from '../../Configs'
 import ActionTypesEnum from '../../Enums';
 
 const FetchUsers = (dispatch: any) => {
-  console.log(dispatch)
 	const { global: { apiUrl } } = AppConfig
 
 	axios.get(`${apiUrl}/users`)
